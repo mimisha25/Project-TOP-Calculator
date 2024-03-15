@@ -1,0 +1,81 @@
+
+body{
+    background-color: black;
+    
+}
+button{
+    width: 50px;
+    height:50px;
+    font-size: 1.2em;
+}
+.calculations{
+background-color: orange;
+border-radius: 50%;
+color:white;
+}
+
+.num{
+    background-color: rgb(60, 59, 59);
+    color:rgb(213, 209, 209);
+    border-radius: 50%;
+    margin:5px;
+}
+.num0{
+    background-color: rgb(60, 59, 59);
+    color:rgb(213, 209, 209);
+    border-radius: 20px;
+    margin:5px;
+    width:110px;
+}
+.clear{
+    background-color: rgb(124, 122, 122);
+    color: rgb(29, 29, 29);
+    border-radius: 50%;
+}
+
+.container{
+        background-image:url(iphone.png);
+        background-position:center;
+        width:400px;
+        height:630px;
+        margin:50px auto;
+}
+
+.calBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right:85px;
+    margin-top: -295px;;
+    gap:9px;
+}
+.clearBtn{
+    display: flex;
+    flex-direction: row;
+/* padding-top:280px; */
+margin-left:82px;
+gap: 11px;
+}
+.numBtn0{
+    display: flex;
+    flex-direction: row;
+margin-left:78px;
+}
+.numBtn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    margin-left: 78px;
+    width:200px;
+   margin-top:4px;
+}
+.input{
+    color:white;
+    font-size: 1.5em;
+    margin: 0px 90px;
+padding-top: 205px
+
+}
+p{
+    text-align:right;
+}
