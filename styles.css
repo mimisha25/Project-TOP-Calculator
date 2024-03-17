@@ -1,77 +1,92 @@
-
-body{
+body {
     background-color: black;
-    
-}
-button{
-    width: 50px;
-    height:50px;
-    font-size: 1.2em;
-}
-.calculations{
-background-color: orange;
-border-radius: 50%;
-color:white;
+
 }
 
-.num{
-    background-color: rgb(60, 59, 59);
-    color:rgb(213, 209, 209);
+.calculations,
+.num,
+.clear {
+    width: 51px;
+    height: 51px;
+    font-size: 1.2em;
+    text-align: center;
     border-radius: 50%;
-    margin:5px;
+    border: none;
 }
-.num0{
+
+.calculations {
+    background-color: orange;
+    color: white;
+}
+
+.num {
     background-color: rgb(60, 59, 59);
-    color:rgb(213, 209, 209);
-    border-radius: 20px;
-    margin:5px;
-    width:110px;
+    color: rgb(213, 209, 209);
+    margin: 5px;
 }
-.clear{
+
+.clear {
     background-color: rgb(124, 122, 122);
     color: rgb(29, 29, 29);
-    border-radius: 50%;
 }
 
-.container{
-        background-image:url(iphone.png);
-        background-position:center;
-        width:400px;
-        height:630px;
-        margin:50px auto;
+.num0 {
+    background-color: rgb(60, 59, 59);
+    color: rgb(213, 209, 209);
+    border-radius: 20px;
+    margin: 5px;
+    width: 110px;
+    text-align: center;
+    font-size: 1.2em;
 }
 
-.calBtn{
+.container {
+    background-image: url(iphone.png);
+    background-position: center;
+    width: 400px;
+    height: 630px;
+    margin: 50px auto;
+}
+
+.calBtn {
     display: flex;
     flex-direction: column;
     align-items: end;
-    margin-right:85px;
-    margin-top: -295px;;
-    gap:9px;
-}
-.clearBtn{
-    display: flex;
-    flex-direction: row;
-/* padding-top:280px; */
-margin-left:82px;
-gap: 11px;
+    margin-right: 80px;
+    margin-top: -298px;
+    gap: 9px;
 }
 
-.numBtn{
+.clearBtn {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; 
+    margin-left: 82px;
+    gap: 11px;
+}
+
+.numBtn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin-left: 78px;
-    width:200px;
-   margin-top:4px;
+    width: 200px;
+    margin-top: 4px;
 }
-.input{
-    color:white;
-    font-size: 1.5em;
-    margin: 0px 100px;
-padding-top: 205px
 
+.input1,
+.result{
+    color: white;
+    background-color: black;
+    width:210px;
+    text-align: end;
+    border: none;
 }
-p{
-    text-align:right;
+.input1{
+    font-size: 1.2em;
+    margin: 190px 88px 0px;
+    height:30px;
+}
+.result {
+    font-size: 1.6em;
+    margin: 10px 88px;
 }
